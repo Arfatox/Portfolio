@@ -1,0 +1,128 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@keyframes blink {
+
+    0%,
+    49% {
+        opacity: 1;
+    }
+
+    50%,
+    100% {
+        opacity: 0;
+    }
+}
+
+:root {
+    --foreground-rgb: 34, 31, 71;
+    --background-start-rgb: 243, 183, 197;
+    --background-end-rgb: 150, 222, 254;
+}
+
+/* Custom Scrollbar Styles */
+/* WebKit browsers (Chrome, Safari, Edge, Opera) */
+::-webkit-scrollbar {
+    width: 7px;
+}
+
+::-webkit-scrollbar-track {
+    background: #1d1a3a;
+    opacity: 0.1;
+}
+
+::-webkit-scrollbar-thumb {
+    background-image: -webkit-linear-gradient(top,
+            #f3b7c5 0%,
+            #D689A9 70%);
+    border-radius: 5px;
+}
+
+/* Firefox */
+* {
+    scrollbar-width: 4px;
+    scrollbar-color: #ffffff00;
+}
+
+@layer base {
+    body {
+        @apply bg-primary text-white;
+    }
+}
+
+@layer components {
+    .glass-effect {
+        @apply bg-secondary/50 backdrop-blur-sm;
+    }
+
+    .gradient-text {
+        @apply bg-gradient-to-r from-accent to-blue-400 bg-clip-text text-transparent;
+    }
+
+    .hover-effect {
+        @apply transition-all duration-300 hover:opacity-90;
+    }
+
+    .projects-container,
+    .tools-container,
+    .hobbies-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 2rem;
+        padding: 1rem;
+    }
+
+    .project-card,
+    .tool-card,
+    .hobby-card {
+        width: 100%;
+        min-width: 280px;
+        max-width: 300px;
+    }
+
+    @media (min-width: 768px) {
+        .project-card {
+            width: calc(50% - 1rem);
+            min-width: 280px;
+        }
+
+        .tool-card {
+            width: calc(33.333% - 1.33rem);
+            min-width: 200px;
+        }
+
+        .hobby-card {
+            width: calc(50% - 1rem);
+            min-width: 280px;
+            max-width: 300px;
+        }
+    }
+
+    @media (min-width: 1024px) {
+        .project-card {
+            width: calc(33.333% - 1.5rem);
+            min-width: 280px;
+        }
+
+        .tool-card {
+            width: calc(20% - 1.6rem);
+            min-width: 180px;
+        }
+
+        .hobby-card {
+            width: 100%;
+            min-width: 280px;
+            max-width: 300px;
+        }
+    }
+}
+
+body {
+    color: rgb(var(--foreground-rgb));
+    background: linear-gradient(to bottom,
+            rgb(var(--background-start-rgb)),
+            rgb(var(--background-end-rgb)));
+    min-height: 100vh;
+}
