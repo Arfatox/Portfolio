@@ -6,9 +6,7 @@ A modern, responsive portfolio website built with Next.js, TypeScript, and Tailw
 
 - Responsive design that works on all devices
 - Modern UI with smooth animations using Framer Motion
-- Sections for About, Projects, and Contact
-- Dark theme with custom color scheme
-- Form handling for contact section
+- Sections for about, projects and tools
 
 ## Getting Started
 
