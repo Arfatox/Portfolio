@@ -60,16 +60,6 @@ eval("// Exports\nmodule.exports = {\n\t\"style\": {\"fontFamily\":\"'__Comforta
 
 /***/ }),
 
-/***/ "(ssr)/./node_modules/next/font/google/target.css?{\"path\":\"app\\\\page.tsx\",\"import\":\"Permanent_Marker\",\"arguments\":[{\"weight\":\"400\",\"subsets\":[\"latin\"]}],\"variableName\":\"permanentMarker\"}":
-/*!*******************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/next/font/google/target.css?{"path":"app\\page.tsx","import":"Permanent_Marker","arguments":[{"weight":"400","subsets":["latin"]}],"variableName":"permanentMarker"} ***!
-  \*******************************************************************************************************************************************************************************************/
-/***/ ((module) => {
-
-eval("// Exports\nmodule.exports = {\n\t\"style\": {\"fontFamily\":\"'__Permanent_Marker_90e039', '__Permanent_Marker_Fallback_90e039'\",\"fontWeight\":400,\"fontStyle\":\"normal\"},\n\t\"className\": \"__className_90e039\"\n};\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKHNzcikvLi9ub2RlX21vZHVsZXMvbmV4dC9mb250L2dvb2dsZS90YXJnZXQuY3NzP3tcInBhdGhcIjpcImFwcFxcXFxwYWdlLnRzeFwiLFwiaW1wb3J0XCI6XCJQZXJtYW5lbnRfTWFya2VyXCIsXCJhcmd1bWVudHNcIjpbe1wid2VpZ2h0XCI6XCI0MDBcIixcInN1YnNldHNcIjpbXCJsYXRpblwiXX1dLFwidmFyaWFibGVOYW1lXCI6XCJwZXJtYW5lbnRNYXJrZXJcIn0iLCJtYXBwaW5ncyI6IkFBQUE7QUFDQTtBQUNBLFdBQVcsdUhBQXVIO0FBQ2xJO0FBQ0EiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9wb3J0Zm9saW8tdjIvLi9ub2RlX21vZHVsZXMvbmV4dC9mb250L2dvb2dsZS90YXJnZXQuY3NzP2RhMzAiXSwic291cmNlc0NvbnRlbnQiOlsiLy8gRXhwb3J0c1xubW9kdWxlLmV4cG9ydHMgPSB7XG5cdFwic3R5bGVcIjoge1wiZm9udEZhbWlseVwiOlwiJ19fUGVybWFuZW50X01hcmtlcl85MGUwMzknLCAnX19QZXJtYW5lbnRfTWFya2VyX0ZhbGxiYWNrXzkwZTAzOSdcIixcImZvbnRXZWlnaHRcIjo0MDAsXCJmb250U3R5bGVcIjpcIm5vcm1hbFwifSxcblx0XCJjbGFzc05hbWVcIjogXCJfX2NsYXNzTmFtZV85MGUwMzlcIlxufTtcbiJdLCJuYW1lcyI6W10sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///(ssr)/./node_modules/next/font/google/target.css?{\"path\":\"app\\\\page.tsx\",\"import\":\"Permanent_Marker\",\"arguments\":[{\"weight\":\"400\",\"subsets\":[\"latin\"]}],\"variableName\":\"permanentMarker\"}\n");
-
-/***/ }),
-
 /***/ "(ssr)/./node_modules/next/dist/client/add-base-path.js":
 /*!********************************************************!*\
   !*** ./node_modules/next/dist/client/add-base-path.js ***!

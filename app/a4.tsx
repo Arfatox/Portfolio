@@ -1,6 +1,5 @@
 'use client';
 
-import { motion } from 'framer-motion';
 import { FaGithub, FaLinkedin, FaExternalLinkAlt } from 'react-icons/fa';
 import { Audiowide, Comfortaa } from 'next/font/google';
 
@@ -58,10 +57,10 @@ export default function A4Portfolio() {
                     <div className="grid grid-cols-2 gap-4">
                         {[
                             {
-                                title: "Ce portfolio",
+                                title: "Portfolio",
                                 description: "Un portfolio créé avec Next.js, TypeScript et Tailwind qui met en valeur mes compétences frontend.",
                                 technologies: ["Next.js", "TypeScript", "Tailwind"],
-                                link: "/"
+                                link: "https://github.com/Arfatox/Portfolio"
                             },
                             {
                                 title: "FlagGuessr",

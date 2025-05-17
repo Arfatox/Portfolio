@@ -28,7 +28,7 @@ const projects = [
         title: "Ce portfolio",
         description: "Un portfolio créé avec Next.js, TypeScript et Tailwind qui met en valeur mes compétences frontend.",
         image: "/logo.png",
-        link: "/",
+        link: "https://github.com/Arfatox/Portfolio",
         technologies: ["Next.js", "TypeScript", "Tailwind"]
     },
     {
@@ -121,22 +121,6 @@ export default function Home() {
                 </motion.div>
             </section>
 
-            {/* Quote Section */}
-            <section className="min-h-screen flex items-center justify-center -mt-16">
-                <motion.div
-                    initial={{ opacity: 0, y: 20 }}
-                    whileInView={{ opacity: 1, y: 0 }}
-                    viewport={{ once: true, margin: "-100px" }}
-                    transition={{ duration: 0.5 }}
-                    className="max-w-4xl mx-auto text-center"
-                >
-                    <blockquote className={`text-3xl md:text-4xl font-bold text-white/90 italic ${permanentMarker.className}`}>
-                        "Fume la vie avant qu'elle te fume"
-                    </blockquote>
-                    <p className="text-xl text-white/70 mt-4 mr-4 text-right">— Un très bon ami</p>
-                </motion.div>
-            </section>
-
             {/* About Section */}
             <section id="about" className="py-24 scroll-mt-32 -mt-8">
                 <div className="max-w-7xl mx-auto">
@@ -191,7 +175,7 @@ export default function Home() {
             </section>
 
             {/* Personal Story Section */}
-            <section className="py-40 px-8 -mt-6">
+            <section className="py-40 px-8">
                 <div className="max-w-7xl mx-auto">
                     <motion.h2
                         initial={{ opacity: 0, y: 20 }}
